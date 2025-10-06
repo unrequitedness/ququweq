@@ -2,15 +2,15 @@ pmAPI-1.0.7-release (~100%)
 
 [WARNING] Если Вы в очередной раз не видите тут ORM - соболезную
 
-** Скачивание: **
+## Скачивание:
 
 - git clone https://github.com/unrequitedness/ququweq.git
 - cd ququweq
 
-** Запуск: **
+## Запуск:
 - dotnet run
 
-** Тестирование (малая часть): **
+## Тестирование (малая часть): **
 
 # Создание бд:
 Invoke-RestMethod -Uri "http://localhost:5000/initdb" -Method POST
